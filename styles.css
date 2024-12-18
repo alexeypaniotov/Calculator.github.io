@@ -59,3 +59,14 @@ button {
  button:active {
     transform: scale(0.96);
  }
+ @media (max-width: 765px) {
+    button:active {
+        transform: none; 
+    }
+    button:hover {
+        background-color: #fff;
+    }
+    button.clear {
+        background-color: #e60000;
+    }
+ }
